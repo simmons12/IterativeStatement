@@ -13,7 +13,7 @@ namespace IterativeStatement
             int Number;
             int i;
             UserInput = Console.ReadLine();
-            Console.WriteLine(" You entered: " + UserInput);
+            
 
             if (!Int32.TryParse(UserInput, out Number))
             {
